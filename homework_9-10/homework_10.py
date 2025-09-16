@@ -7,6 +7,8 @@ def main():
     for i in range(100000):
         random_list.append(random.randint(1, 1000000))
 
+    #bubble_sort(random_list) Очень долго выполняется
+
     # создание массива из словарей
     random_dict_list = []
     for i in range(100000):
